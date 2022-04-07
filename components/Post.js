@@ -9,14 +9,7 @@ import {
   deleteDoc,
   doc,
 } from "@firebase/firestore";
-import {
-  BookmarkIcon,
-  ChatIcon,
-  DotsHorizontalIcon,
-  EmojiHappyIcon,
-  HeartIcon,
-  PaperAirplaneIcon,
-} from "@heroicons/react/outline";
+import { EmojiHappyIcon, HeartIcon } from "@heroicons/react/outline";
 import { HeartIcon as HeartIconFilled } from "@heroicons/react/solid";
 
 import { useSession } from "next-auth/react";

@@ -1,5 +1,4 @@
 import Post from "./Post";
-import Image from "next/image";
 import { useState, useEffect } from "react";
 import { collection, onSnapshot, orderBy, query } from "@firebase/firestore";
 import { db } from "../firebase";

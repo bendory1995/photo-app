@@ -1,12 +1,5 @@
 import Image from "next/image";
-import {
-  SearchIcon,
-  PlusCircleIcon,
-  UserGroupIcon,
-  HeartIcon,
-  PaperAirplaneIcon,
-  MenuIcon,
-} from "@heroicons/react/outline";
+import { PlusCircleIcon } from "@heroicons/react/outline";
 import { HomeIcon } from "@heroicons/react/solid";
 import { signIn, signOut, useSession } from "next-auth/react";
 import { useRouter } from "next/router";
