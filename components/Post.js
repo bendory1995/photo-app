@@ -60,7 +60,6 @@ function Post({ id, username, userImg, img, caption }) {
       });
     }
   };
-  console.log(hasLiked);
   const sendComment = async (e) => {
     e.preventDefault();
     const commentTosend = comment;
